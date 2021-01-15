@@ -11,9 +11,7 @@ public class Proyecto
 		System.out.print("Inicio del Proyecto\n");
 		Scanner entrada = new Scanner(System.in);
 		
-		int x;
-		int y;
-		int suma;
+		int x, y, suma;
 
 		System.out.print("Escriba el primer entero: ");
 		x = entrada.nextInt();
@@ -23,6 +21,11 @@ public class Proyecto
 
 		suma = x + y;
 		System.out.printf("La suma es: %d\n", suma);
+
+		if (suma % 2 == 0)
+			System.out.println("El valor de la suma es un numero par");
+		else
+			System.out.println("El valor de la suma es un numero impar");
 	}
 }
 
