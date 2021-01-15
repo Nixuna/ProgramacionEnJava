@@ -2,9 +2,9 @@
 
 public class LibroCalificaciones
 {
-   public void mostrarMensajes()
+   public void mostrarMensajes(String nombreDelCurso)
    {
-      System.out.println("Bienvenido a LibroCalificaciones");
+      System.out.printf("Bienvenido a LibroCalificaciones\n%s\n", nombreDelCurso);
    }
 }
 
