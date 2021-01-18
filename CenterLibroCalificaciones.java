@@ -10,10 +10,14 @@ public class CenterLibroCalificaciones
 		Scanner entrada = new Scanner(System.in);
 		LibroCalificaciones miLibroCalificaciones = new LibroCalificaciones();
 
-		System.out.println("Escriba el nombre del curso:");
+		System.out.printf("El nombre del curso inicial es: %s\n", miLibroCalificaciones.obtenerNombreDelCurso());
+
+		System.out.print("Escriba el nombre del curso: ");
 		String nombreDelCurso = entrada.nextLine();
-		System.out.println();
+		miLibroCalificaciones.establecerNombreDelCurso(nombreDelCurso);
 		miLibroCalificaciones.mostrarMensajes(nombreDelCurso);
+
+		System.out.println();
 	}
 
 }
