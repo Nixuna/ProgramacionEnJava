@@ -10,6 +10,7 @@ public class LibroCalificaciones
 		nombreDelCurso = nombre;
 	}
 
+
 	public void establecerNombreDelCurso(String nombre)
 	{
 		nombreDelCurso = nombre;
@@ -20,7 +21,7 @@ public class LibroCalificaciones
 		return nombreDelCurso;
 	}
 
-   public void mostrarMensajes(String nombreDelCurso)
+   public void mostrarMensajes()
    {
       System.out.printf("Bienvenido a LibroCalificaciones\n%s\n", obtenerNombreDelCurso());
    }
