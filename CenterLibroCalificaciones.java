@@ -8,7 +8,7 @@ public class CenterLibroCalificaciones
 	public static void main (String args[])
 	{
 		Scanner entrada = new Scanner(System.in);
-		LibroCalificaciones miLibroCalificaciones = new LibroCalificaciones();
+		LibroCalificaciones miLibroCalificaciones = new LibroCalificaciones("Introduccion a Java");
 
 		System.out.printf("El nombre del curso inicial es: %s\n", miLibroCalificaciones.obtenerNombreDelCurso());
 
