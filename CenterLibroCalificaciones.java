@@ -14,6 +14,8 @@ public class CenterLibroCalificaciones
 
 		System.out.print("Escriba el nombre del curso: ");
 		String nombreDelCurso = entrada.nextLine();
+		
+		//Llamadas a las funciones
 		miLibroCalificaciones.establecerNombreDelCurso(nombreDelCurso);
 		miLibroCalificaciones.mostrarMensajes(nombreDelCurso);
 
