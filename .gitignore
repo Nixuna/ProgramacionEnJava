@@ -1,0 +1,4 @@
+#Ingnora todos los documentos de texto
+*.txt
+#Ignora todos los archivos swp
+*.swp
