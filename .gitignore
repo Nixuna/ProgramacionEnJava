@@ -2,5 +2,3 @@
 *.txt
 #Ignora todos los archivos swp
 *.swp
-#Ignora la carpeta Cuenta
-Cuenta/
